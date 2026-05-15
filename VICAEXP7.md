@@ -23,15 +23,13 @@ Procedure Without Express:
 ---
 * Set the Voltage Maximum and Minimum to -5/5 V
 * Save the program (CTRL + S). From the Front panel tool bar menu select
-* Operate →Run (or press CTRL + R) to execute the
-program. Raw ECG Signal Output:
+* Operate →Run (or press CTRL + R) to execute the program.
+* Raw ECG Signal Output:
 <img width="1206" height="632" alt="image" src="https://github.com/user-attachments/assets/2845d96e-20f6-4cc8-b84c-3f5dcab2b900" />
 3. Taking FFT for raw ECG:
-Right click on the block diagram. From the menu appearing select Signal
-Processing Wfm Measure FFT Spectrum magnitude and phase. Place the FFT
-block in the block diagram.
-4. Connect the data in the DAQmx read terminal to Time signal terminal of the
-FFT block.
+Right click on the block diagram. From the menu appearing select Signal Processing Wfm Measure FFT Spectrum magnitude and phase.
+Place the FFT block in the block diagram.
+4. Connect the data in the DAQmx read terminal to Time signal terminal of the FFT block.
 
 <img width="1144" height="792" alt="image" src="https://github.com/user-attachments/assets/1d445154-88a5-4357-8dee-16044ebab248" />
 5. Configuring FFT block:
@@ -64,7 +62,7 @@ Final Front Panel:
 
 Final Block Diagram:
 <img width="1698" height="938" alt="image" src="https://github.com/user-attachments/assets/a699db72-3440-4514-b7de-223a5b96199a" />
-
+Final Front Panel:
 <img width="1850" height="756" alt="image" src="https://github.com/user-attachments/assets/36cb221f-01c1-431a-900c-d7bf3b4e8418" />
 
 Result: Thus the raw ECG signal (0-40Hz) was acquired and its FFT was obtained. Power line interference occurred at 50Hz.
